@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>个人信息采集</title>
+    </head>
+    <body>
+        <h1>个人信息采集目录</h1>
+    <br>
+    <hr>
+    <!-- forms -->
+    <form>
+        <div>
+            <label>姓名</label>
+            <input class="input"type="text" id="userName" onblur="regName()"placeholder="click to enter">
+            <span id="userNameReg"></span>
+        </div>
+        <div>
+            <label>学号</label>
+            <input class="input"type="stunumber" id="stuNumber"onblur="regstuNumber()" placeholder="click to enter">
+            <span id="stuNumberReg"></span>
+        </div>
+        <div>
+            <label>手机</label>
+            <input class="input"type="phone" id="userPhone"onblur="regphone()" placeholder="click to enter">
+            <span id="userPhoneReg"></span>
+        </div>
+        <div>
+            <label>邮箱</label>
+            <input class="input"type="mail" id="userMail"onblur="regmail()" placeholder="click to enter">
+            <span id="userMailReg"></span>
+        </div>
+        <div>
+            <label>兴趣</label>
+            <input class="input"type="hobby" id="userHobby"onblur="reghobby()" placeholder="click to enter">
+            <span id="userHobbyReg"></span>
+        </div>
+        <br>
+        <hr>
+        <!-- <div><input id="btn" type="button" οnmοuseοver="chengColor('red')"
+            οnmοuseοut="chengColor('#000')" value="submit" οnclick="regbtn()"/></div> -->
+        <button id="btn"onclick="regbtn()"type="button" οnmοuseοver="chengColor('red')"
+        οnmοuseοut="chengColor('#000')" value="submit">提交</button>
+    </form>
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+</html>

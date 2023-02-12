@@ -1,0 +1,23 @@
+[
+    {
+        "userhobby": "hello",
+        "usermail": "1243503267@qq.com",
+        "username": "admin",
+        "usernumber": "1111111111111",
+        "userphone": "13000000000"
+    },
+    {
+        "userhobby": "world",
+        "usermail": "1243503267@qq.com",
+        "username": "admin2",
+        "usernumber": "2222222222222",
+        "userphone": "15000000000"
+    },
+    {
+        "userhobby": "哈哈哈哈哈",
+        "usermail": "qzy@qq.com",
+        "username": "用户1",
+        "usernumber": "2019302130777",
+        "userphone": "15333333333"
+    }
+]
